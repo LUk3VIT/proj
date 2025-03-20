@@ -1,22 +1,118 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Academico.MainPage">
+             x:Class="Academico.MainPage"
+             Background="Black">
 
     <ScrollView>
+        
         <VerticalStackLayout
-            Padding="30,0"
+            Padding="10"
             Spacing="25">
-
-            <FlexLayout>
-                <Label
-                    Text="Medicina"/>
-                <ImageButton
-                    Source="vector.png"/>
-                <ImageButton
-                    Source="x.png"/>
-            </FlexLayout>
             
+            <Border>
+                <HorizontalStackLayout
+                    Background="#A9A9A9"
+                    Padding="10">
+                    <FlexLayout
+                        Direction="Row"
+                        Wrap="Wrap">
+                        <Label
+                            Text="Medicina"
+                            FontSize="35"
+                            />
+                    </FlexLayout>
+
+                    <FlexLayout>
+                        <ImageButton
+                            Source="vector.png"
+                            BorderWidth="5"
+                            Aspect="Center"
+                            />
+                    <ImageButton
+                            Source="x.png"
+                            BorderWidth="5"
+                            Aspect="Center"/>
+
+                    </FlexLayout>
+                </HorizontalStackLayout>
+            </Border>
+
+            <Border>
+                <HorizontalStackLayout
+                    Background="#A9A9A9"
+                    Padding="10">
+                    <FlexLayout
+                        Direction="Row"
+                        Wrap="Wrap">
+                        <Label
+                            Text="Medicina"
+                            FontSize="35"/>
+                    </FlexLayout>
+
+                    <FlexLayout>
+                        <ImageButton
+                            Source="vector.png"
+                            BorderWidth="5"
+                            Aspect="Center"/>
+                        <ImageButton
+                            Source="x.png"
+                            BorderWidth="5"
+                            Aspect="Center"/>
+                    </FlexLayout>
+                </HorizontalStackLayout>
+            </Border>
+
+            <Border>
+                <HorizontalStackLayout
+                    Background="#A9A9A9"
+                    Padding="10">
+                    <FlexLayout
+                        Direction="Row"
+                        Wrap="Wrap">
+                        <Label
+                            Text="Medicina"
+                            FontSize="35"/>
+                    </FlexLayout>
+
+                    <FlexLayout>
+                        <ImageButton
+                            Source="vector.png"
+                            BorderWidth="5"
+                            Aspect="Center"/>
+                        <ImageButton
+                            Source="x.png"
+                            BorderWidth="5"
+                            Aspect="Center"/>
+                    </FlexLayout>
+                </HorizontalStackLayout>
+            </Border>
+
+            <Border>
+                <HorizontalStackLayout
+                    Background="#A9A9A9"
+                    Padding="10">
+                    <FlexLayout
+                        Direction="Row"
+                        Wrap="Wrap">
+                        <Label
+                            Text="Medicina"
+                            FontSize="35"/>
+                    </FlexLayout>
+
+                    <FlexLayout>
+                        <ImageButton
+                            Source="vector.png"
+                            BorderWidth="5"
+                            Aspect="Center"/>
+                        <ImageButton
+                            Source="x.png"
+                            BorderWidth="5"
+                            Aspect="Center"/>
+                    </FlexLayout>
+                </HorizontalStackLayout>
+            </Border>
+
         </VerticalStackLayout>
     </ScrollView>
 

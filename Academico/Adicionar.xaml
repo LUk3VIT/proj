@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Academico.Adicionar"
+             Title="Adicionar">
+    <VerticalStackLayout
+        Padding="10">
+        <FlexLayout
+            Direction="Column"
+            Margin="0,20">
+            <Label 
+                    x:Name="lblCurso"
+                    Text="Curso"/>
+            <Entry
+                    x:Name="etrCurso"/>
+
+            <Label 
+                    x:Name="lblSigla"
+                    Text="Sigla"/>
+            <Entry
+                    x:Name="etrSilg"/>
+
+            <Label
+                x:Name="lblObservacão"/>
+            <Button
+                Margin="10"
+                x:Name="btnSalvarCurso"
+                Text="Salvar"/>
+        </FlexLayout>
+    </VerticalStackLayout>
+</ContentPage>
