@@ -2,116 +2,212 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Academico.MainPage"
+             Title="Curso"
              Background="Black">
 
     <ScrollView>
-        
         <VerticalStackLayout
-            Padding="10"
-            Spacing="25">
-            
+        Padding="10"
+        Spacing="25">
+            <Border >
+                <SearchBar
+                FontSize="25"
+                Placeholder="Pesquisar"
+                BackgroundColor="White"/>
+            </Border>
+
+            <ImageButton
+                WidthRequest="50"
+                HeightRequest="50"
+                Source="add.png"
+                CornerRadius="50"
+                Background="White"
+                Clicked="btnAddOnClick"
+                Padding="10"/>
+
             <Border>
-                <HorizontalStackLayout
-                    Background="#A9A9A9"
-                    Padding="10">
+                <VerticalStackLayout
+                Background="#A9A9A9"
+                Padding="10">
+                    <Label
+                        Text="Nome"
+                        FontSize="35"/>
+                    <Label
+                        Text="Sigla"
+                        FontSize="35"/>
+                    <Label
+                        Text="Observação"
+                        FontSize="35"/>
+                    <Label
+                        Text="NomePeriodo"
+                        FontSize="35"/>
+                    <Label
+                        Text="SiglaPeriodo"
+                        FontSize="35"/>
+                    <Label
+                        Text="NomeDisciplina"
+                        FontSize="35"/>
+                    <Label
+                        Text="SiglaDisciplina"
+                        FontSize="35"/>
+                    <Label
+                        Text="ObservaçãoDisciplina"
+                        FontSize="35"/>
+
                     <FlexLayout
-                        Direction="Row"
-                        Wrap="Wrap">
-                        <Label
-                            Text="Medicina"
-                            FontSize="35"
-                            />
-                    </FlexLayout>
-
-                    <FlexLayout>
+                    Direction="Row"
+                    JustifyContent="Start">
                         <ImageButton
-                            Source="vector.png"
-                            BorderWidth="5"
-                            Aspect="Center"
-                            />
-                    <ImageButton
-                            Source="x.png"
-                            BorderWidth="5"
-                            Aspect="Center"/>
-
+                        Source="x.png"
+                        WidthRequest="45"
+                        HeightRequest="30"
+                        Margin="5,10"/>
+                        <ImageButton
+                        Source="pincel.png"
+                        WidthRequest="45"
+                        HeightRequest="30"
+                        Margin="5,10"/>
                     </FlexLayout>
-                </HorizontalStackLayout>
+                </VerticalStackLayout>
             </Border>
 
             <Border>
-                <HorizontalStackLayout
-                    Background="#A9A9A9"
-                    Padding="10">
+                <VerticalStackLayout
+                   Background="#A9A9A9"
+                   Padding="10">
+                    <Label
+                         Text="Nome"
+                         FontSize="35"/>
+                    <Label
+                         Text="Sigla"
+                         FontSize="35"/>
+                    <Label
+                         Text="Observação"
+                         FontSize="35"/>
+                    <Label
+                         Text="NomePeriodo"
+                         FontSize="35"/>
+                    <Label
+                         Text="SiglaPeriodo"
+                         FontSize="35"/>
+                    <Label
+                         Text="NomeDisciplina"
+                         FontSize="35"/>
+                    <Label
+                         Text="SiglaDisciplina"
+                         FontSize="35"/>
+                    <Label
+                         Text="ObservaçãoDisciplina"
+                         FontSize="35"/>
                     <FlexLayout
-                        Direction="Row"
-                        Wrap="Wrap">
-                        <Label
-                            Text="Medicina"
-                            FontSize="35"/>
-                    </FlexLayout>
-
-                    <FlexLayout>
+                     Direction="Row"
+                     JustifyContent="Start">
                         <ImageButton
-                            Source="vector.png"
-                            BorderWidth="5"
-                            Aspect="Center"/>
+                         Source="x.png"
+                         WidthRequest="45"
+                         HeightRequest="30"
+                         Margin="5,10"/>
                         <ImageButton
-                            Source="x.png"
-                            BorderWidth="5"
-                            Aspect="Center"/>
+                         Source="pincel.png"
+                         WidthRequest="45"
+                         HeightRequest="30"
+                         Margin="5,10"/>
                     </FlexLayout>
-                </HorizontalStackLayout>
+                </VerticalStackLayout>
             </Border>
 
             <Border>
-                <HorizontalStackLayout
-                    Background="#A9A9A9"
-                    Padding="10">
-                    <FlexLayout
-                        Direction="Row"
-                        Wrap="Wrap">
-                        <Label
-                            Text="Medicina"
-                            FontSize="35"/>
-                    </FlexLayout>
+                <VerticalStackLayout
+                   Background="#A9A9A9"
+                   Padding="10">
+                    <Label
+                         Text="Nome"
+                         FontSize="35"/>
+                    <Label
+                         Text="Sigla"
+                         FontSize="35"/>
+                    <Label
+                         Text="Observação"
+                         FontSize="35"/>
+                    <Label
+                         Text="NomePeriodo"
+                         FontSize="35"/>
+                    <Label
+                         Text="SiglaPeriodo"
+                         FontSize="35"/>
+                    <Label
+                         Text="NomeDisciplina"
+                         FontSize="35"/>
+                    <Label
+                         Text="SiglaDisciplina"
+                         FontSize="35"/>
+                    <Label
+                         Text="ObservaçãoDisciplina"
+                         FontSize="35"/>
 
-                    <FlexLayout>
+                    <FlexLayout
+                     Direction="Row"
+                     JustifyContent="Start">
                         <ImageButton
-                            Source="vector.png"
-                            BorderWidth="5"
-                            Aspect="Center"/>
+                         Source="x.png"
+                         WidthRequest="45"
+                         HeightRequest="30"
+                         Margin="5,10"/>
                         <ImageButton
-                            Source="x.png"
-                            BorderWidth="5"
-                            Aspect="Center"/>
+                         Source="pincel.png"
+                         WidthRequest="45"
+                         HeightRequest="30"
+                         Margin="5,10"/>
                     </FlexLayout>
-                </HorizontalStackLayout>
+                </VerticalStackLayout>
             </Border>
 
             <Border>
-                <HorizontalStackLayout
-                    Background="#A9A9A9"
-                    Padding="10">
-                    <FlexLayout
-                        Direction="Row"
-                        Wrap="Wrap">
-                        <Label
-                            Text="Medicina"
-                            FontSize="35"/>
-                    </FlexLayout>
+                <VerticalStackLayout
+                   Background="#A9A9A9"
+                   Padding="10">
+                    <Label
+                         Text="Nome"
+                         FontSize="35"/>
+                    <Label
+                         Text="Sigla"
+                         FontSize="35"/>
+                    <Label
+                         Text="Observação"
+                         FontSize="35"/>
+                    <Label
+                         Text="NomePeriodo"
+                         FontSize="35"/>
+                    <Label
+                         Text="SiglaPeriodo"
+                         FontSize="35"/>
+                    <Label
+                         Text="NomeDisciplina"
+                         FontSize="35"/>
+                    <Label
+                         Text="SiglaDisciplina"
+                         FontSize="35"/>
+                    <Label
+                         Text="ObservaçãoDisciplina"
+                         FontSize="35"/>
 
-                    <FlexLayout>
+                    <FlexLayout
+                     Direction="Row"
+                     JustifyContent="Start">
                         <ImageButton
-                            Source="vector.png"
-                            BorderWidth="5"
-                            Aspect="Center"/>
+                        Source="x.png"
+                         WidthRequest="45"
+                         HeightRequest="30"
+                         Margin="5,10"/>
                         <ImageButton
-                            Source="x.png"
-                            BorderWidth="5"
-                            Aspect="Center"/>
+                         Source="pincel.png"
+                         WidthRequest="45"
+                         HeightRequest="30"
+                         Margin="5,10"/>
                     </FlexLayout>
-                </HorizontalStackLayout>
+                </VerticalStackLayout>
             </Border>
+
 
         </VerticalStackLayout>
     </ScrollView>

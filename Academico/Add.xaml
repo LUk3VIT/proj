@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Academico.Add"
+             Title="Curso > Add"
+             Background="Black">
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="10"
+            Spacing="25">
+
+            <FlexLayout>
+                <ImageButton
+                WidthRequest="50"
+                HeightRequest="50"
+                CornerRadius="50"
+                Background="White"
+                Padding="10"
+                Clicked="btnMainOnClick"
+                Source="x.png"/>
+            </FlexLayout>
+
+            <Label 
+                x:Name="lblNome"
+                Text="Nome"
+                TextColor="White"
+                FontSize="25"/>
+            <Border>
+                <Entry
+                    x:Name="etrNome"
+                    TextColor="White"/>
+            </Border>
+
+            <Label 
+                x:Name="lblSigla"
+                Text="Nome"
+                TextColor="White"
+                FontSize="25"/>
+            <Border>
+                <Entry
+                    x:Name="etrSigla"
+                    TextColor="White"/>
+            </Border>
+            
+            <Label 
+                x:Name="lblObs"
+                Text="Observação"
+                TextColor="White"
+                FontSize="25"/>
+            <Border>
+                <Entry
+                    x:Name="etrObs"
+                    TextColor="White"/>
+            </Border>
+
+            <Label 
+                x:Name="lblPeriodos"
+                Text="Periodos"
+                TextColor="White"
+                FontSize="25"/>
+            <Border>
+                <Picker 
+                    x:Name="pikPeriodos"
+                    Title="Select a monkey"
+                    TextColor="White">
+                    <Picker.ItemsSource>
+                        <x:Array Type="{x:Type x:String}">
+                            <x:String>Baboon</x:String>
+                            <x:String>Capuchin Monkey</x:String>
+                            <x:String>Blue Monkey</x:String>
+                            <x:String>Squirrel Monkey</x:String>
+                            <x:String>Golden Lion Tamarin</x:String>
+                            <x:String>Howler Monkey</x:String>
+                            <x:String>Japanese Macaque</x:String>
+                        </x:Array>
+                    </Picker.ItemsSource>
+                </Picker>
+            </Border>
+
+            <Label 
+                x:Name="lblDisciplina"
+                Text="Disciplina"
+                TextColor="White"
+                FontSize="25"/>
+            <Border>
+                <Picker 
+                    x:Name="pikDisciplina"
+                    Title="Select a monkey"
+                    TextColor="White">
+                    <Picker.ItemsSource>
+                        <x:Array Type="{x:Type x:String}">
+                            <x:String>Baboon</x:String>
+                            <x:String>Capuchin Monkey</x:String>
+                            <x:String>Blue Monkey</x:String>
+                            <x:String>Squirrel Monkey</x:String>
+                            <x:String>Golden Lion Tamarin</x:String>
+                            <x:String>Howler Monkey</x:String>
+                            <x:String>Japanese Macaque</x:String>
+                        </x:Array>
+                    </Picker.ItemsSource>
+                </Picker>
+            </Border>
+
+
+            <Button
+                Text="Salvar"
+                Background="Blue"/>
+
+        </VerticalStackLayout>
+    </ScrollView>    
+</ContentPage>

@@ -13,15 +13,22 @@
     <FlyoutItem
         Title="Menu"
         FlyoutDisplayOptions="AsMultipleItems">
+        
         <ShellContent
             Title="Home"
             ContentTemplate="{DataTemplate local:MainPage}"
             Route="MainPage"/>
 
         <ShellContent
-            Title="Adicionar Curso"
-            ContentTemplate="{DataTemplate local:Adicionar}"
-            Route="Adicionar"/>
+            Title="Disciplina"
+            ContentTemplate="{DataTemplate local:Disciplina}"
+            Route="Disciplina"/>
+
+        <ShellContent
+            Title="Periodos"
+            ContentTemplate="{DataTemplate local:Periodos}}"
+            Route="Periods"/>
+
     </FlyoutItem>
 
 </Shell>
