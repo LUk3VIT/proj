@@ -15,19 +15,22 @@
         FlyoutDisplayOptions="AsMultipleItems">
         
         <ShellContent
-            Title="Home"
+            Title="Curso"
             ContentTemplate="{DataTemplate local:MainPage}"
-            Route="MainPage"/>
+            Route="MainPage"
+            Icon="curso.png"/>
 
         <ShellContent
             Title="Disciplina"
             ContentTemplate="{DataTemplate local:Disciplina}"
-            Route="Disciplina"/>
+            Route="Disciplina"
+            Icon="disciplina.png"/>
 
         <ShellContent
             Title="Periodos"
-            ContentTemplate="{DataTemplate local:Periodos}}"
-            Route="Periods"/>
+            ContentTemplate="{DataTemplate local:Periodos}"
+            Route="Periods"
+            Icon="periodo.png"/>
 
     </FlyoutItem>
 

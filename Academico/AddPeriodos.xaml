@@ -32,7 +32,7 @@
         
         <Label 
             x:Name="lblSigla"
-            Text="Nome"
+            Text="Sigla"
             TextColor="White"
             FontSize="25"/>
         <Border>

@@ -41,12 +41,14 @@
                             Source="x.png"
                             WidthRequest="45"
                             HeightRequest="30"
-                            Margin="5,10"/>
+                            Margin="5,10"
+                            Clicked="btnDeletOnClick"/>
                         <ImageButton
                             Source="pincel.png"
                             WidthRequest="45"
                             HeightRequest="30"
-                            Margin="5,10"/>
+                            Margin="5,10"
+                            Clicked="btnUpPeriodosOnClick"/>
                     </FlexLayout>
                 </VerticalStackLayout>
            </Border>
@@ -68,12 +70,14 @@
                              Source="x.png"
                              WidthRequest="45"
                              HeightRequest="30"
-                             Margin="5,10"/>
+                             Margin="5,10"
+                             Clicked="btnDeletOnClick"/>
                          <ImageButton
                              Source="pincel.png"
                              WidthRequest="45"
                              HeightRequest="30"
-                             Margin="5,10"/>
+                             Margin="5,10"
+                             Clicked="btnUpPeriodosOnClick"/>
                     </FlexLayout>
                 </VerticalStackLayout>
             </Border>
@@ -96,12 +100,14 @@
                          Source="x.png"
                          WidthRequest="45"
                          HeightRequest="30"
-                         Margin="5,10"/>
+                         Margin="5,10"
+                         Clicked="btnDeletOnClick"/>
                         <ImageButton
                          Source="pincel.png"
                          WidthRequest="45"
                          HeightRequest="30"
-                         Margin="5,10"/>
+                         Margin="5,10"
+                         Clicked="btnUpPeriodosOnClick"/>
                     </FlexLayout>
                 </VerticalStackLayout>
             </Border>
@@ -124,12 +130,14 @@
                                 Source="x.png"
                                 WidthRequest="45"
                                 HeightRequest="30"
-                                Margin="5,10"/>
+                                Margin="5,10"
+                                Clicked="btnDeletOnClick"/>
                             <ImageButton
                                  Source="pincel.png"
                                  WidthRequest="45"
                                  HeightRequest="30"
-                                 Margin="5,10"/>
+                                 Margin="5,10"
+                                 Clicked="btnUpPeriodosOnClick"/>
                     </FlexLayout>
                 </VerticalStackLayout>
             </Border>

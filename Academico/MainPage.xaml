@@ -58,15 +58,17 @@
                     Direction="Row"
                     JustifyContent="Start">
                         <ImageButton
-                        Source="x.png"
-                        WidthRequest="45"
-                        HeightRequest="30"
-                        Margin="5,10"/>
+                         Source="x.png"
+                         WidthRequest="45"
+                         HeightRequest="30"
+                         Margin="5,10"
+                         Clicked="btnDeletOnClick"/>
                         <ImageButton
-                        Source="pincel.png"
-                        WidthRequest="45"
-                        HeightRequest="30"
-                        Margin="5,10"/>
+                         Source="pincel.png"
+                         Clicked="btnUpOnClick"
+                         WidthRequest="45"
+                         HeightRequest="30"
+                         Margin="5,10"/>
                     </FlexLayout>
                 </VerticalStackLayout>
             </Border>
@@ -106,9 +108,11 @@
                          Source="x.png"
                          WidthRequest="45"
                          HeightRequest="30"
-                         Margin="5,10"/>
+                         Margin="5,10"
+                         Clicked="btnDeletOnClick"/>
                         <ImageButton
                          Source="pincel.png"
+                         Clicked="btnUpOnClick"
                          WidthRequest="45"
                          HeightRequest="30"
                          Margin="5,10"/>
@@ -152,10 +156,12 @@
                          Source="x.png"
                          WidthRequest="45"
                          HeightRequest="30"
-                         Margin="5,10"/>
+                         Margin="5,10"
+                         Clicked="btnDeletOnClick"/>
                         <ImageButton
                          Source="pincel.png"
                          WidthRequest="45"
+                         Clicked="btnUpOnClick"
                          HeightRequest="30"
                          Margin="5,10"/>
                     </FlexLayout>
@@ -198,10 +204,12 @@
                         Source="x.png"
                          WidthRequest="45"
                          HeightRequest="30"
-                         Margin="5,10"/>
+                         Margin="5,10"
+                         Clicked="btnDeletOnClick"/>
                         <ImageButton
                          Source="pincel.png"
                          WidthRequest="45"
+                         Clicked="btnUpOnClick"
                          HeightRequest="30"
                          Margin="5,10"/>
                     </FlexLayout>
