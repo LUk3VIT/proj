@@ -27,7 +27,8 @@
             FontSize="25"/>
         <Border>
             <Entry
-                x:Name="etrNome"/>
+                x:Name="etrNome"
+                TextColor="White"/>
         </Border>
         
         <Label 
@@ -37,11 +38,13 @@
             FontSize="25"/>
         <Border>
             <Entry
-                x:Name="etrSigla"/>
+                x:Name="etrSigla"
+                TextColor="White"/>
         </Border>
         <Button
             Text="Salvar"
-            Background="Blue"/>
+            Background="Blue"
+            />
 
     </VerticalStackLayout>
 </ContentPage>

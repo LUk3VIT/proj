@@ -11,13 +11,13 @@
 
             <FlexLayout>
                 <ImageButton
-                WidthRequest="50"
-                HeightRequest="50"
-                CornerRadius="50"
-                Background="White"
-                Padding="10"
-                Clicked="btnMainOnClick"
-                Source="x.png"/>
+                    WidthRequest="50"
+                    HeightRequest="50"
+                    CornerRadius="50"
+                    Background="White"
+                    Padding="10"
+                    Clicked="btnMainOnClick"
+                    Source="x.png"/>
             </FlexLayout>
 
             <Label 

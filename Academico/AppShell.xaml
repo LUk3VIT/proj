@@ -6,7 +6,7 @@
     xmlns:local="clr-namespace:Academico"
     
     Shell.FlyoutBehavior="Flyout"
-    Shell.TabBarIsVisible="False"
+    Shell.TabBarIsVisible="True"
     
     Title="Academico">
 
@@ -31,6 +31,12 @@
             ContentTemplate="{DataTemplate local:Periodos}"
             Route="Periods"
             Icon="periodo.png"/>
+        
+        <ShellContent
+            Title="Cadastro User"
+            ContentTemplate="{DataTemplate local:Cadastro}"
+            Route="Cadastro"
+            Icon="cadastro.png"/>    
 
     </FlyoutItem>
 

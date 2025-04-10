@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Academico.Cadastro"
+             Title="Cadastro Usuario"
+             Background="Black">
+    
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="10"
+            Spacing="25">
+
+            <FlexLayout>
+                <ImageButton
+                    WidthRequest="50"
+                    HeightRequest="50"
+                    CornerRadius="50"
+                    Background="White"
+                    Padding="10"
+                    Clicked="btnMainOnClick"
+                    Source="x.png"/>
+            </FlexLayout>
+
+            <Label 
+                x:Name="lblCpf"
+                Text="CPF"
+                TextColor="White"
+                FontSize="25"/>
+            <Border>
+                <Entry
+                    x:Name="etrCpf"
+                    TextColor="White"/>
+            </Border>
+
+            <Label 
+                x:Name="lblNome"
+                Text="Nome"
+                TextColor="White"
+                FontSize="25"/>
+            <Border>
+                <Entry
+                    x:Name="etrNome"
+                    TextColor="White"/>
+            </Border>
+
+            <Label 
+                x:Name="lblDataNascimento"
+                Text="Data Nascimento"
+                TextColor="White"
+                FontSize="25"/>
+            <Border>
+                <Entry
+                    x:Name="etrDataNascimento"
+                    TextColor="White"/>
+            </Border>
+
+            <Label 
+                x:Name="lblEmail"
+                Text="Email"
+                TextColor="White"
+                FontSize="25"/>
+            <Border>
+                <Entry
+                    x:Name="etrEmail"
+                    TextColor="White"/>
+            </Border>
+
+            <Label 
+                x:Name="lblTelefone"
+                Text="Telefone"
+                TextColor="White"
+                FontSize="25"/>
+            <Border>
+                <Entry
+                    x:Name="etrTelefone"
+                    TextColor="White"/>
+            </Border>
+
+            <Button
+                Text="Cadastrar"
+                Background="Blue"/>
+        </VerticalStackLayout>
+    </ScrollView>
+    
+</ContentPage>

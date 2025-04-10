@@ -79,6 +79,9 @@
 	  <MauiXaml Update="AddPeriodos.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Cadastro.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Disciplina.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

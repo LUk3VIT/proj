@@ -27,7 +27,8 @@
         
         <Border>
             <Entry
-                x:Name="etrNome"/>
+                x:Name="etrNome"
+                TextColor="White"/>
         </Border>
 
         <Label 
@@ -37,7 +38,8 @@
             FontSize="25"/>
         <Border>
             <Entry
-                x:Name="etrSigla"/>
+                x:Name="etrSigla"
+                TextColor="White"/>
         </Border>
 
         <Label 
@@ -47,7 +49,8 @@
             FontSize="25"/>
         <Border>
             <Entry
-                x:Name="etrObs"/>
+                x:Name="etrObs"
+                TextColor="White"/>
         </Border>
 
         <Button
