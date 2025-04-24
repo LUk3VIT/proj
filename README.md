@@ -1,1 +1,3 @@
 # proj
+
+PARA USAR O BANCO NÂO ESQUECER DO ARQUIVO App.xaml.cs
