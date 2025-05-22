@@ -25,135 +25,66 @@
                 Padding="10"
                 Clicked="btnAddOnClick"/>
 
-            <Border>
-                <VerticalStackLayout
-                    Background="#A9A9A9"
-                    Padding="10">
-                    <Label
-                            Text="Nome"
-                            FontSize="35"/>
-                    <Label
-                            Text="Sigla"
-                            FontSize="35"/>
-                    <Label
-                            Text="Observação"
-                            FontSize="35"/>
-                    <FlexLayout
-                        Direction="Row"
-                        JustifyContent="Start">
-                        <ImageButton
-                            Source="x.png"
-                            WidthRequest="45"
-                            HeightRequest="30"
-                            Margin="5,10"
-                            Clicked="btnDeletOnClick"/>
-                        <ImageButton
-                            Source="pincel.png"
-                            WidthRequest="45"
-                            HeightRequest="30"
-                            Margin="5,10"
-                            Clicked="btnUpDisciplinaOnClick"/>
-                    </FlexLayout>
-                </VerticalStackLayout>
-            </Border>
+            <ListView  
+               x:Name="listDisciplina"
+               HasUnevenRows="True"
+               ItemSelected="listDisciplina_ItemSelected">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
 
-            <Border>
-                <VerticalStackLayout
-                       Background="#A9A9A9"
-                       Padding="10">
-                    <Label
-                           Text="Nome"
-                           FontSize="35"/>
-                    <Label
-                           Text="Sigla"
-                           FontSize="35"/>
-                    <Label
-                           Text="Observação"
-                           FontSize="35"/>
-                    <FlexLayout
-                         Direction="Row"
-                         JustifyContent="Start">
-                        <ImageButton
-                             Source="x.png"
-                             WidthRequest="45"
-                             HeightRequest="30"
-                             Margin="5,10"
-                             Clicked="btnDeletOnClick"/>
-                        <ImageButton
-                             Source="pincel.png"
-                             WidthRequest="45"
-                             HeightRequest="30"
-                             Margin="5,10"
-                             Clicked="btnUpDisciplinaOnClick"/>
-                    </FlexLayout>
-                </VerticalStackLayout>
-            </Border>
+                                <Border Grid.Row="0">
+                                    <VerticalStackLayout  
+                                        Background="#A9A9A9"  
+                                        Padding="10">
 
-            <Border>
-                <VerticalStackLayout
-                       Background="#A9A9A9"
-                       Padding="10">
-                    <Label
-                           Text="Nome"
-                           FontSize="35"/>
-                    <Label
-                           Text="Sigla"
-                           FontSize="35"/>
-                    <Label
-                           Text="Observação"
-                           FontSize="35"/>
-                    <FlexLayout
-                         Direction="Row"
-                         JustifyContent="Start">
-                        <ImageButton
-                             Source="x.png"
-                             WidthRequest="45"
-                             HeightRequest="30"
-                             Margin="5,10"
-                             Clicked="btnDeletOnClick"/>
-                        <ImageButton
-                             Source="pincel.png"
-                             WidthRequest="45"
-                             HeightRequest="30"
-                             Margin="5,10"
-                             Clicked="btnUpDisciplinaOnClick"/>
-                    </FlexLayout>
-                </VerticalStackLayout>
-            </Border>
+                                        <Label
+                                           x:Name="labelCodigo"
+                                           Text="{Binding Codigo}"  
+                                           FontSize="35"/>
 
-            <Border>
-                <VerticalStackLayout
-                       Background="#A9A9A9"
-                       Padding="10">
-                    <Label
-                           Text="Nome"
-                           FontSize="35"/>
-                    <Label
-                           Text="Sigla"
-                           FontSize="35"/>
-                    <Label
-                           Text="Observação"
-                           FontSize="35"/>
-                    <FlexLayout
-                         Direction="Row"
-                         JustifyContent="Start">
-                        <ImageButton
-                            Source="x.png"
-                             WidthRequest="45"
-                             HeightRequest="30"
-                             Margin="5,10"
-                             Clicked="btnDeletOnClick"/>
-                        <ImageButton
-                             Source="pincel.png"
-                             WidthRequest="45"
-                             HeightRequest="30"
-                             Margin="5,10"
-                             Clicked="btnUpDisciplinaOnClick"/>
-                    </FlexLayout>
-                </VerticalStackLayout>
-            </Border>
+                                        <Label
+                                           x:Name="labelNome"
+                                           Text="{Binding Nome}"  
+                                           FontSize="35"/>
 
-           
+                                        <Label  
+                                           x:Name="labelSigla"
+                                           Text="{Binding Sigla}"  
+                                           FontSize="35"/>
+
+                                        <FlexLayout  
+                                           Direction="Row"  
+                                           JustifyContent="Start">
+                                            
+                                            <ImageButton  
+                                               Source="x.png"  
+                                               WidthRequest="45"  
+                                               HeightRequest="30"  
+                                               Margin="5,10"  
+                                               Clicked="ImageButton_Clicked"/>
+
+                                            <ImageButton  
+                                               Source="pincel.png"  
+                                               WidthRequest="45"  
+                                               HeightRequest="30"  
+                                               Margin="5,10"/>
+                                        </FlexLayout>
+                                    </VerticalStackLayout>
+                                </Border>
+                            </Grid>
+
+
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+
         </VerticalStackLayout>
     </ScrollView>
 

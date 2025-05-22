@@ -42,9 +42,10 @@
                 TextColor="White"/>
         </Border>
         <Button
+            x:Name="btnInserir"
             Text="Salvar"
             Background="Blue"
-            />
+            Clicked="btnInserir_Clicked"/>
 
     </VerticalStackLayout>
 </ContentPage>

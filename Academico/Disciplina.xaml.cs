@@ -1,11 +1,17 @@
+using System.Collections.ObjectModel;
+using Academico.Models;
+
 namespace Academico;
 
 public partial class Disciplina : ContentPage
 {
-	public Disciplina()
+
+    public Disciplina()
 	{
 		InitializeComponent();
 	}
+
+
     private async void btnAddOnClick(object sender, EventArgs e)
     {
         await Navigation.PushAsync(new AddDisciplina());
@@ -20,5 +26,6 @@ public partial class Disciplina : ContentPage
     {
         bool answer = await DisplayAlert("Excluir", "Tem certeza que deseja Excluir: ", "Sim", "Não");
     }
+
 
 }
